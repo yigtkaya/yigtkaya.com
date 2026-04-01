@@ -1,3 +1,8 @@
 name = "yigtkaya-com"
 compatibility_date = "2025-04-01"
-pages_build_output_dir = "./out"
+
+[assets]
+directory = "./out"
+
+[build]
+command = "npm run build"
